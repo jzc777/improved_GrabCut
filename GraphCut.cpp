@@ -8,12 +8,12 @@ private:
 
 public:
     GraphCut(); 
-    GraphCut(int, int); // 带参构造函数
-    int addVertex(); // 添加一个节点
-    double maxFlow(); // 最大流
+    GraphCut(int, int);
+    int addVertex(); //加一个节点
+    double maxFlow(); 
     void addVertexWeights(int, double, double); // 添加节点权重
     void addEdges(int, int, double); // 加边
-    bool isSourceSegment(int); // 是否为源段
+    bool isSourceSegment(int); 
 };
 
 
